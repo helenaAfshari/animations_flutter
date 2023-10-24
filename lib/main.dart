@@ -1,4 +1,5 @@
 import 'package:animations/explicity_anim.dart';
+import 'package:animations/hero_anim.dart';
 import 'package:animations/move_anim.dart';
 import 'package:animations/rotation_anim.dart';
 import 'package:animations/scale_anim.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:  TwinAnim(),
+      home:  HomeScreen(),
     );
   }
 }
