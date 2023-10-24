@@ -3,6 +3,7 @@ import 'package:animations/move_anim.dart';
 import 'package:animations/rotation_anim.dart';
 import 'package:animations/scale_anim.dart';
 import 'package:animations/show_or_hid_anim.dart';
+import 'package:animations/twin_anim.dart';
 import 'package:flutter/material.dart';
 
 import 'container_boxdecoration.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:  ExplicityAnimation(),
+      home:  TwinAnim(),
     );
   }
 }

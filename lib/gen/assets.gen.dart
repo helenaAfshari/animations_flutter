@@ -16,11 +16,14 @@ class $AssetsImagesGen {
   AssetGenImage get download =>
       const AssetGenImage('assets/images/download.png');
 
+  /// File path: assets/images/hln.jpg
+  AssetGenImage get hln => const AssetGenImage('assets/images/hln.jpg');
+
   /// File path: assets/images/ship.jpg
   AssetGenImage get ship => const AssetGenImage('assets/images/ship.jpg');
 
   /// List of all assets
-  List<AssetGenImage> get values => [download, ship];
+  List<AssetGenImage> get values => [download, hln, ship];
 }
 
 class Assets {
